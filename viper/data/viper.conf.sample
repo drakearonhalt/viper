@@ -7,6 +7,7 @@
 
 [modules]
 store_output = True
+module_repo = https://github.com/viper-framework/viper-modules.git
 
 [paths]
 # Path to a folder that will be used for storing samples and resources.

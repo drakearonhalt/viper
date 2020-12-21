@@ -20,6 +20,10 @@ develop-eggs
 lib
 lib64
 
+# Venv
+share
+pyvenv.cfg
+
 # Installer logs
 pip-log.txt
 
@@ -53,3 +57,5 @@ data/yara/index.yara
 installed_files.txt
 
 keys.py
+
+*.swp

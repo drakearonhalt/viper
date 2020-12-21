@@ -26,6 +26,7 @@ class UpdateModules(Command):
         dot_viper = cfg.paths.module_path
         dot_viper_modules = os.path.join(dot_viper, "modules")
 
+
         self.log("info", f'Module path: {dot_viper_modules}')
 
         if os.path.exists(dot_viper_modules):
